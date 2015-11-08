@@ -1,7 +1,7 @@
 
 # Data Analysis and  Artificial Intelligence
 
-* ### Data Analysis and Regression (Fall 2013)
+* ### Data Analysis and Regression (Fall 2013) R
 
     Data analysis and regression, multiple regression and correlation, residual analysis, analysis of variance, and robustness.
       
@@ -10,7 +10,7 @@
     [Multiple Regression](./CSC_423/labs/lab_2/CSC423_Lab2.pdf)
 
 
-* ### Advanced Data Analysis  (Spring 2014)
+* ### Advanced Data Analysis  (Spring 2014) R
 
     Visualization techniques to summarize and display high dimensional data, dimensional reduction techniques such as principal component analysis and factor analysis, clustering techniques for discovering patterns from large datasets, and classification techniques for decision making.
     
@@ -23,21 +23,21 @@
     [FOREX Japanese Candlestick Project](./CSC_424/project/forex_candelsticks.pdf) - [Code](./CSC_424/project/projectCode.R) - [Data](./CSC_424/project/data.tar.gz)
 
 
-* ### Time Series Analysis and Forecasting (Fall 2014)
+* ### Time Series Analysis and Forecasting (Fall 2014) R
 
     Autocorrelated data analysis, Box-Jenkins models (autoregressive, moving average, and autoregressive moving average models), analysis of seasonality, volatility models (GARCH-type, GARCH-M type, etc.), forecasting evaluation and diagnostics checking.
     
      [Time Series Analysis on the EUR/USD](./CSC_425/final_project/CSC425_Final.pdf) - [Code](CSC_425/final_project/Rcode.R) - [Data](CSC_425/final_project/data.tar.gz)
 
 
-* ###  Neural Networks and Machine Learning (Fall 2013)
+* ###  Neural Networks and Machine Learning (Fall 2013) Java, C, MATLAB
 
     Analyses of decision trees, Bayesian learning, genetic algorithms, PAC, analytical and reinforcement learning. Neural networks include Hopfield, backpropagation, Kohonen, ART, and Neuro-Fuzzy.
     
     [Hidden Markov Models(HMM)](./CSC_578/project/documentation.pdf) - [Source Code](./CSC_578/project/sourceCode) - [Data](./CSC_578/project/data.tar.gz)
 
 
-* ###  Monte Carlo Algorithms (Spring 2014)
+* ###  Monte Carlo Algorithms (Spring 2014) Python
 
     Pseudo random number generators, the inversion method, the accept-reject method, discrete event simulations, multi-dimensional integration, the Metropolis and the Bootstrap algorithms.
     
@@ -47,14 +47,14 @@
 # Database SQL
 
 
-* ### Database Programming (Summer 2015)
+* ### Database Programming (Summer 2015) SQL
 
     Programming in a large-scale relational database environment using procedural languages. Topics covered in the course include: procedural extension of query languages, runtime error handling, subprograms (procedures and functions), packages, database triggers, dynamic query language.
       
     [Sample project code](./CSC_452/project.txt) of a SQL-based application to insert and update records in a video rental store database and generate some reports. [Assingment Details](./CSC_452/project15Summer.doc)
 
 
-* ### Database Technologies (Spring 2014)
+* ### Database Technologies (Spring 2014) SQL
 
     Database implementation and queries in SQL, logical design or relational databases, storage and indexes, database programming, and emerging database models.
     
