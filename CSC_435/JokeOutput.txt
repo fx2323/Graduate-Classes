@@ -1,0 +1,92 @@
+Example of a running session with jokes:
+
+Andrew Tillmann's Joke Client, 1.8.
+
+Using Server: localhost, Port: 42323
+What is your name?
+Andrew  
+Type (quit) to end or hit enter for message: 
+D: Hey Andrew, A blind man walks into a bar. And a table. And a chair.
+Type (quit) to end or hit enter for message: 
+B: Hey Andrew, If you want to catch a squirrel just climb a tree and act like a nut.
+Type (quit) to end or hit enter for message: 
+A: Hey Andrew, It's hard to explain puns to kleptomaniacs because they always take things literally.
+Type (quit) to end or hit enter for message: 
+C: Hey Andrew, A magician was walking down the street and turned into a grocery store.
+Type (quit) to end or hit enter for message: 
+E: Hey Andrew, A farmer in the field with his cows counted 196 of them, but when he rounded them up he had 200.
+Type (quit) to end or hit enter for message: 
+A: Hey Andrew, It's hard to explain puns to kleptomaniacs because they always take things literally.
+Type (quit) to end or hit enter for message: 
+C: Hey Andrew, A magician was walking down the street and turned into a grocery store.
+Type (quit) to end or hit enter for message: 
+E: Hey Andrew, A farmer in the field with his cows counted 196 of them, but when he rounded them up he had 200.
+Type (quit) to end or hit enter for message: 
+B: Hey Andrew, If you want to catch a squirrel just climb a tree and act like a nut.
+Type (quit) to end or hit enter for message: 
+D: Hey Andrew, A blind man walks into a bar. And a table. And a chair.
+Type (quit) to end or hit enter for message: quit()
+B: Hey Andrew, If you want to catch a squirrel just climb a tree and act like a nut.
+
+
+Example of a running session with proverbs:
+
+Andrew Tillmann's Joke Client, 1.8.
+
+Using Server: localhost, Port: 42323
+What is your name?
+Andrew Tillmann
+Type (quit) to end or hit enter for message: 
+A: Hey Andrew Tillmann, A bad penny always turns up.
+Type (quit) to end or hit enter for message: 
+B: Hey Andrew Tillmann, A bird in the hand is worth two in the bush.
+Type (quit) to end or hit enter for message: 
+C: Hey Andrew Tillmann, A chain is no stronger than its weakest link.
+Type (quit) to end or hit enter for message: 
+E: Hey Andrew Tillmann, A man's home is his castle.
+Type (quit) to end or hit enter for message: 
+D: Hey Andrew Tillmann, A fool and his money are soon parted.
+Type (quit) to end or hit enter for message: 
+B: Hey Andrew Tillmann, A bird in the hand is worth two in the bush.
+Type (quit) to end or hit enter for message: 
+C: Hey Andrew Tillmann, A chain is no stronger than its weakest link.
+Type (quit) to end or hit enter for message: 
+D: Hey Andrew Tillmann, A fool and his money are soon parted.
+Type (quit) to end or hit enter for message: 
+E: Hey Andrew Tillmann, A man's home is his castle.
+Type (quit) to end or hit enter for message: 
+A: Hey Andrew Tillmann, A bad penny always turns up.
+
+Example of a running session with both proverbs and jokes mixed then maintenance-mode at the end followed by closing the program:
+
+Andrew Tillmann's Joke Client, 1.8.
+
+Using Server: localhost, Port: 42323
+What is your name?
+Andy  
+Type (quit) to end or hit enter for message: 
+A: Hey Andy, It's hard to explain puns to kleptomaniacs because they always take things literally.
+Type (quit) to end or hit enter for message: 
+D: Hey Andy, A blind man walks into a bar. And a table. And a chair.
+Type (quit) to end or hit enter for message: 
+A: Hey Andy, A bad penny always turns up.
+Type (quit) to end or hit enter for message: 
+B: Hey Andy, A bird in the hand is worth two in the bush.
+Type (quit) to end or hit enter for message: 
+E: Hey Andy, A man's home is his castle.
+Type (quit) to end or hit enter for message: 
+B: Hey Andy, If you want to catch a squirrel just climb a tree and act like a nut.
+Type (quit) to end or hit enter for message: 
+E: Hey Andy, A farmer in the field with his cows counted 196 of them, but when he rounded them up he had 200.
+Type (quit) to end or hit enter for message: 
+C: Hey Andy, A magician was walking down the street and turned into a grocery store.
+Type (quit) to end or hit enter for message: 
+D: Hey Andy, A fool and his money are soon parted.
+Type (quit) to end or hit enter for message: 
+C: Hey Andy, A chain is no stronger than its weakest link.
+Type (quit) to end or hit enter for message: 
+A: Hey Andy, A bad penny always turns up.
+Type (quit) to end or hit enter for message: 
+The server is temporarily unavailable -- check-back shortly.
+Type (quit) to end or hit enter for message: quit
+Cancelled by user request.

@@ -1,0 +1,135 @@
+
+
+>>> #Exercises 2.12 Write Python expressions corresponding to these statements:
+>>> #(a) The sum of the first seven positive integers
+>>> sum(range(1,8))
+28
+>>> #(b) The average age of Sara (age 65), Fatima(57), and Mark(age 45)
+>>> AgeList=[65,57,45]
+>>> print(('Average age of Sara, Fatima and Mark is {:.3} years old.').format(sum(AgeList)/len(AgeList)))
+Average age of Sara, Fatima and Mark is 55.7 years old.
+>>> #(c) 2 to the 20th power
+>>> 2**20
+1048576
+>>> #(d) The number of times 61 goes into 4356
+>>> 4356//61
+71
+>>> #(e) The remainder when 4365 is divided by 61
+>>> 4365%61
+34
+
+
+
+>>> #Exercises 2.13 Start by evaluating, in the interactive shell, assignment:
+>>> s1='-'
+>>> s2='+'
+>>> #(a)
+>>> s1+s2
+'-+'
+>>> #(b)
+>>> s1+s2
+'-+'
+>>> #(c)
+>>> s2+s1*2
+'+--'
+>>> #(d)
+>>> (s2+s1*2)*2
+'+--+--'
+>>> #(e)
+>>> (s2+s1*2)*10+s2
+'+--+--+--+--+--+--+--+--+--+--+'
+>>> #(f)
+>>> (s2+s1+s2*3+s1*2)*5
+'+-+++--+-+++--+-+++--+-+++--+-+++--'
+
+
+>>> #Exercises 2.15 Start by executing
+>>> s='goodbye'
+>>> #Then write a Boolean expression that check whether:
+>>> #(a) The first character of string s is 'g'
+>>> s[0]=='g'
+True
+>>> #(b) The seventh character of s is 'g'
+>>> s[6]=='g'
+False
+>>> #(c) The first two characters of s are 'g' and 'a'
+>>> s[0]=='g' and s[1]=='a'
+False
+>>> #(d) The next to last character of s is 'x'
+>>> s[-2]=='x'
+False
+>>> #(e) The middle character of s is 'd'
+>>> s[len(s)//2]=='d'
+True
+>>> #(f) The first and last characters of strings s are equal
+>>> s[0]==s[-1]
+False
+>>> #(g) The last 4 characters of strings s match the string 'tion'
+>>> (s[-4]+s[-3]+s[-2]+s[-1])=='tion'
+False
+
+
+
+>>> #Exercises 2.16 Write the corresponding Python assignments statements:
+>>> #(a) Assign 6 to a and 7 to b.
+>>> a=6
+>>> b=7
+>>> #(b) Assign to variable c the average of variables a and b.
+>>> c=(a+b)/2
+>>> #(c) Assign to variable inventory the list containing strings 'paper' , 'staples' , and 'pencils'.
+>>> inverntory=['paper', 'staples','pencils']
+>>> #(d) Assign to variables first, middle and last the strings 'John' , 'Fitzgerald', and 'Kennedy'
+>>> first='John'
+>>> middle='Fitzgerald'
+>>> last='Kennedy'
+>>> #(e) Assign to variable fullname the concatenation of string variables first, middle and last. Make sure you incorportate black spaces appropriately.
+>>> fullname=first+' '+middle+' '+last
+
+
+
+>>> #Exercises 2.18 Write Python statements corresponding to the following:
+>>> #(a) Assign to variable flowers a list containing strings 'rose', 'bougainvillea' , 'yucca', 'marigold', 'daylilly', and 'lilly of the valley'.
+>>> flowers=['rose','bougainvillea','yucca','marigold','daylilly','lilly of the valley']
+>>> 'potato' in flowers
+False
+>>> #(c) Assign to list thorny the sublist of list flowers consisting of the first three object in the list
+>>> thorny=[flowers[0],flowers[1],flowers[2]]
+>>> #(d) Assign to list poisonous the sublist of list flowers consisting of just the last object of list flowers.
+>>> poisonous=[flowers[-1]]
+>>> #(e) Assign to list dangerous the concatenation of list thorny and poisonous
+>>> dangerous=thorny+poisonous
+
+
+>>> #Exercises 2.19 Hit the dartboard: radius 10 board's center is at (0,0)
+>>> r=10
+>>> #(a)
+>>> x=0
+>>> y=0
+>>> x**2+y**2<=r**2
+True
+>>> #(b)
+>>> x=10
+>>> y=10
+>>> x**2+y**2<=r**2
+False
+>>> #(c)
+>>> x=6
+>>> y=-6
+>>> x**2+y**2<=r**2
+True
+>>> #(d)
+>>> x=-7
+>>> y=8
+>>> x**2+y**2<=r**2
+False
+
+
+
+
+>>> #Exercises 2.21 Write an expression involving a three-letter string s that evaluates to a string whose characters are the characters of s in reverse order. If s is 'top', the expression should evaluate to 'pot'
+>>> s='top'
+>>> reverse=s[2]+s[1]+s[0]
+>>> reverse
+'pot'
+
+

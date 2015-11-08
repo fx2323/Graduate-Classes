@@ -1,0 +1,74 @@
+--assign5
+--Andrew Tillmann
+--CSC 453 Spring 2014
+
+--Problem 1
+declare
+  studentID STUDENT.ID%TYPE;
+  studentName STUDENT.Name%TYPE;
+  mid WEIGHTS.MidPct%TYPE;
+  studentMid STUDENT.MIDTERM%TYPE;
+  fin WEIGHTS.FinPct%TYPE;
+  studentFin STUDENT.Final%TYPE;
+  hw  WEIGHTS.HWPct%TYPE;
+  studentHw STUDENT.HOMEWORK%TYPE;
+  gradeNumber Number(3,0);
+  gradeLetter char(1);
+  cursor studentPtr is Select * from STUDENT;
+begin
+  --prints out the weight from table weights
+  Select * 
+  INTO mid,fin,hw
+  from WEIGHTS;
+  dbms_output.put_line ('Weights are ' || mid ||', ' || fin || ', ' || hw);
+
+--prints out each studentID, Name and Grade letter
+  open studentPtr;
+  loop
+    fetch studentPtr into studentID, studentName, studentMid,studentFin,studentHw;
+    if studentPtr%found then
+      gradeNumber :=(studentMid*mid + studentFin*fin + studentHw*Hw)/100;
+      if (gradeNumber >= 90) then
+        gradeLetter :='A';
+      elsif (gradeNumber >= 80) then
+        gradeLetter :='B';
+      elsif (gradeNumber >= 65) then
+        gradeLetter :='C';
+      else
+        gradeLetter :='F';
+      end if;
+      dbms_output.put_line(studentID || ' ' || studentName || ' ' ||gradeLetter);
+    else
+      exit;
+    end if;
+  end loop;
+end;
+
+
+
+--problem 2
+
+--This trigger updates the PROJECT table 
+--when no employee is assigned in ASSIGNMENT table
+CREATE or REPLACE TRIGGER TS AFTER UPDATE or DELETE on ASSIGNMENT
+Begin 
+FOR output IN (  select code, name from Project where (
+    (select count(projcode)
+    from Assignment 
+    where (projcode=code)
+    group by projcode
+    )>=1
+  )) LOOP
+  dbms_output.put_line(output.CODE || ' ' || output.Name);
+  end loop;
+  
+  DELETE from project where code NOT IN(
+  select code from Project where (
+    (select count(projcode)
+    from Assignment 
+    where (projcode=code)
+    group by projcode
+    )>=1
+  )
+  );
+end;

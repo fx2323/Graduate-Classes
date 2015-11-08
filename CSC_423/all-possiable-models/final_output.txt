@@ -1,0 +1,14 @@
+The best final results:
+
+best_f_value
+model=lm(formula= SP ~ CPI_LEF + DY, data=trainning);
+
+best_adj_R_squared
+model=lm(formula= SP ~ CPI_LEF + CO + DY + MR + MI + CD + UC, data=trainning);
+
+best_sigma
+model=lm(formula= SP ~ CPI_LEF + CO + DY + MR + MI + CD + UC, data=trainning);
+
+best_overall
+
+
