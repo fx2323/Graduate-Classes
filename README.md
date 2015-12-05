@@ -51,14 +51,14 @@
 
     Programming in a large-scale relational database environment using procedural languages. Topics covered in the course include: procedural extension of query languages, runtime error handling, subprograms (procedures and functions), packages, database triggers, dynamic query language.
       
-    [Sample project code](./CSC_452/project.txt) of a SQL-based application to insert and update records in a video rental store database and generate some reports. [Assingment Details](./CSC_452/project15Summer.doc)
+    [Sample project code](./CSC_452/project.txt) of a SQL-based application to insert and update records in a video rental store database and generate some reports. [Assignment Details](./CSC_452/project15Summer.doc)
 
 
 * ### Database Technologies (Spring 2014) SQL
 
     Database implementation and queries in SQL, logical design or relational databases, storage and indexes, database programming, and emerging database models.
     
-    [Sample assingment code](./CSC_453/assign5.txt) - [Assingment Details](./CSC_453/Assign5.pdf)
+    [Sample assignment code](./CSC_453/assign5.txt) - [Assingment Details](./CSC_453/Assign5.pdf)
 
 
 * ### Database Administration and Management (Summer 2015)
