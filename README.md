@@ -58,7 +58,7 @@
 
     Database implementation and queries in SQL, logical design or relational databases, storage and indexes, database programming, and emerging database models.
     
-    [Sample assignment code](./CSC_453/assign5.txt) - [Assingment Details](./CSC_453/Assign5.pdf)
+    [Sample assignment code](./CSC_453/assign5.txt) - [Assignment Details](./CSC_453/Assign5.pdf)
 
 
 * ### Database Administration and Management (Summer 2015)
